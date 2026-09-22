@@ -1,6 +1,6 @@
 # CRISPR — Bias Neuron Elimination
 
-Implementation of **CRISPR** from *Mitigating Biases for Instruction-following Language Models via Bias Neurons Elimination* (Yang et al., ACL 2024) [PDF](https://aclanthology.org/2024.acl-long.490/).
+Implementation of **CRISPR** from *Mitigating Biases for Instruction-following Language Models via Bias Neurons Elimination* (Yang et al., ACL 2024) [[PDF]](https://aclanthology.org/2024.acl-long.490/).
 
 The code in this repository has been repackaged, and a binary search algorithm has been added to determine the optimal number of neurons.
 
