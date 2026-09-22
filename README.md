@@ -1,6 +1,6 @@
 # CRISPR — Bias Neuron Elimination on BBQ
 
-Implementation of **CRISPR** from *Mitigating Biases for Instruction-following Language Models via Bias Neurons Elimination* (Yang et al., ACL 2024).
+Implementation of **CRISPR** from *Mitigating Biases for Instruction-following Language Models via Bias Neurons Elimination* (Yang et al., ACL 2024) [PDF](https://aclanthology.org/2024.acl-long.490/).
 No training is involved: every neuron is scored by its contribution to a biased answer, the top-ranked neurons are zeroed out, and the model is evaluated zero-shot with ten synonymous instructions.
 
 The code in this repository has been repackaged, and a binary search algorithm has been added to determine the optimal number of neurons.
@@ -11,9 +11,6 @@ The code in this repository has been repackaged, and a binary search algorithm h
 pip install -r requirements.txt
 python download_data.py
 ```
-
-Flan-T5 checkpoints are downloaded from the Hugging Face hub on first use (Apache-2.0; no weights are redistributed here). The reported results were produced with Python 3.11,
-torch 2.5.1+cu121 and transformers 4.56.2 on one A100 40GB.
 
 ## Run
 
